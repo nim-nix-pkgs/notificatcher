@@ -2,48 +2,21 @@
   "nodes": {
     "dbus": {
       "inputs": {
-        "dbus-master": "dbus-master",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107440,
-        "narHash": "sha256-Errsroj+2pV43vbQXygEJWp55RqNAyUrXqiUEdvRvBQ=",
-        "owner": "nim-nix-pkgs",
-        "repo": "dbus",
-        "rev": "dd36dba438ab7e8806d545c450b4b139a4b462dd",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "dbus",
-        "type": "github"
-      }
-    },
-    "dbus-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "dbus",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "dbus",
           "nixpkgs"
         ],
         "src-dbus-master": "src-dbus-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107440,
-        "narHash": "sha256-Errsroj+2pV43vbQXygEJWp55RqNAyUrXqiUEdvRvBQ=",
+        "lastModified": 1648163032,
+        "narHash": "sha256-Q5DRZsB0OqyuW6nPsEkxiOR/NMQMf1worXNt943IaI4=",
         "owner": "nim-nix-pkgs",
         "repo": "dbus",
-        "rev": "dd36dba438ab7e8806d545c450b4b139a4b462dd",
+        "rev": "7cef63e0519bb89f5ee6b43edf25f83235e7e73b",
         "type": "github"
       },
       "original": {
