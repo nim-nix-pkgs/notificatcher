@@ -11,6 +11,7 @@
   inputs.src-notificatcher-master.ref   = "refs/heads/master";
   inputs.src-notificatcher-master.owner = "PMunch";
   inputs.src-notificatcher-master.repo  = "notificatcher";
+  inputs.src-notificatcher-master.dir   = "";
   inputs.src-notificatcher-master.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";

@@ -11,6 +11,7 @@
   inputs.src-notificatcher-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-notificatcher-v0_2_0.owner = "PMunch";
   inputs.src-notificatcher-v0_2_0.repo  = "notificatcher";
+  inputs.src-notificatcher-v0_2_0.dir   = "";
   inputs.src-notificatcher-v0_2_0.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";
