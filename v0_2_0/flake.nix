@@ -11,7 +11,6 @@
   inputs.src-notificatcher-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-notificatcher-v0_2_0.owner = "PMunch";
   inputs.src-notificatcher-v0_2_0.repo  = "notificatcher";
-  inputs.src-notificatcher-v0_2_0.dir   = "";
   inputs.src-notificatcher-v0_2_0.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";
@@ -21,6 +20,14 @@
   inputs."dbus".type  = "github";
   inputs."dbus".inputs.nixpkgs.follows = "nixpkgs";
   inputs."dbus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/pmunch/docopt.nim".owner = "nim-nix-pkgs";
+  inputs."github.com/pmunch/docopt.nim".ref   = "master";
+  inputs."github.com/pmunch/docopt.nim".repo  = "github.com/pmunch/docopt.nim";
+  inputs."github.com/pmunch/docopt.nim".dir   = "";
+  inputs."github.com/pmunch/docopt.nim".type  = "github";
+  inputs."github.com/pmunch/docopt.nim".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/pmunch/docopt.nim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
