@@ -76,6 +76,33 @@
         "type": "github"
       }
     },
+    "nimpng": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-nimPNG-v0_3_1": "src-nimPNG-v0_3_1"
+      },
+      "locked": {
+        "dir": "v0_3_1",
+        "lastModified": 1656301095,
+        "narHash": "sha256-qsqxxSsRPvITOrBZTjo6k3vHuF8k53q6gLhcjqhjrdM=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimpng",
+        "rev": "d3c627265a0bbbeb7dc403d8774bb7613b651087",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_3_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimpng",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
@@ -123,8 +150,9 @@
         "dbus": "dbus",
         "flakeNimbleLib": "flakeNimbleLib",
         "github-pmunch-docopt": "github-pmunch-docopt",
+        "nimpng": "nimpng",
         "nixpkgs": "nixpkgs",
-        "src-notificatcher-master": "src-notificatcher-master"
+        "src-notificatcher-v0_4_0": "src-notificatcher-v0_4_0"
       }
     },
     "src-dbus-master": {
@@ -161,19 +189,36 @@
         "type": "github"
       }
     },
-    "src-notificatcher-master": {
+    "src-nimPNG-v0_3_1": {
       "flake": false,
       "locked": {
-        "lastModified": 1655362851,
-        "narHash": "sha256-O8RTlp2k4I7hhtQe7RH+9+k5elROf8DFNYhT2foQfz8=",
+        "lastModified": 1592630157,
+        "narHash": "sha256-PorEjQr0rJPeq8p5550qr5MvWAhbOZlDjPhchGVu+O0=",
+        "owner": "jangko",
+        "repo": "nimPNG",
+        "rev": "9de8e28dd77bb93fc003e877f1656967c2ca4852",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jangko",
+        "ref": "refs/tags/v0.3.1",
+        "repo": "nimPNG",
+        "type": "github"
+      }
+    },
+    "src-notificatcher-v0_4_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1655282758,
+        "narHash": "sha256-2hkWrx5mcz8HKEsiJswSa4uXsxux9ULsZmnrb0ZolMM=",
         "owner": "PMunch",
         "repo": "notificatcher",
-        "rev": "17ab1b1b86f238c680cae71f8bb5206a1082bf1e",
+        "rev": "2ec071213a32a59d707d0b28ff9e039327a50277",
         "type": "github"
       },
       "original": {
         "owner": "PMunch",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.4.0",
         "repo": "notificatcher",
         "type": "github"
       }
