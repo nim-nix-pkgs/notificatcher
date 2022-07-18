@@ -21,13 +21,13 @@
   inputs."dbus".inputs.nixpkgs.follows = "nixpkgs";
   inputs."dbus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/pmunch/docopt.nim".owner = "nim-nix-pkgs";
-  inputs."github.com/pmunch/docopt.nim".ref   = "master";
-  inputs."github.com/pmunch/docopt.nim".repo  = "github.com/pmunch/docopt.nim";
-  inputs."github.com/pmunch/docopt.nim".dir   = "";
-  inputs."github.com/pmunch/docopt.nim".type  = "github";
-  inputs."github.com/pmunch/docopt.nim".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/pmunch/docopt.nim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-pmunch-docopt".owner = "nim-nix-pkgs";
+  inputs."github-pmunch-docopt".ref   = "master";
+  inputs."github-pmunch-docopt".repo  = "github-pmunch-docopt";
+  inputs."github-pmunch-docopt".dir   = "v0_6_8";
+  inputs."github-pmunch-docopt".type  = "github";
+  inputs."github-pmunch-docopt".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-pmunch-docopt".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
