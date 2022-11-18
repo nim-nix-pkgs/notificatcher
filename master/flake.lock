@@ -210,11 +210,11 @@
       },
       "locked": {
         "dir": "v0_6_8",
-        "lastModified": 1667335846,
-        "narHash": "sha256-/sDPxwJFlsXqe507ncrLlPofXcyMxEXkkQGAWCS7vCU=",
+        "lastModified": 1668750671,
+        "narHash": "sha256-SSnwMP34O2R0m6575Z+zgT71kZ3YzqCO17tjkYD6S5A=",
         "owner": "nim-nix-pkgs",
         "repo": "github-pmunch-docopt",
-        "rev": "ad2cdd38b5654731a915fc2aeed73f34d3437f78",
+        "rev": "324d6396dbb9cae147b731601a1f6a7f9007ebe7",
         "type": "github"
       },
       "original": {
